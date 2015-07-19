@@ -17,6 +17,8 @@ import java.util.Collection;
  * @author <a href="mailto:nicolas.deloof@gmail.com">Nicolas De Loof</a>
  */
 public class DockerBuildWrapper extends BuildWrapper {
+    
+    private static final long serialVersionUID = 1L;
 
     private final DockerImageSelector selector;
 
