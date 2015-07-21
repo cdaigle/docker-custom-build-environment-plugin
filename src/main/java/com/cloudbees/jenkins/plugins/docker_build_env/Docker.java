@@ -126,7 +126,7 @@ public class Docker implements Closeable {
                 continue;
             }
             args.add("--env");
-            args.addMasked(e.getKey()+"="+e.getValue());
+            args.add(e.getKey()+"="+e.getValue());
         }
         args.add(image).add(command);
 
